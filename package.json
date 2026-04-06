@@ -1,0 +1,52 @@
+{
+  "name": "@shoppexio/storefront",
+  "version": "0.1.0",
+  "description": "Public npm package for the Shoppex Storefront SDK",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShoppexIO/storefront-js.git"
+  },
+  "homepage": "https://docs.shoppex.io/sdk/introduction",
+  "bugs": {
+    "url": "https://github.com/ShoppexIO/storefront-js/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "lint": "biome lint src",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "shoppex",
+    "storefront",
+    "sdk",
+    "checkout"
+  ],
+  "author": "Shoppex",
+  "license": "MIT",
+  "devDependencies": {
+    "@shoppex/contracts": "workspace:*",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3"
+  }
+}
