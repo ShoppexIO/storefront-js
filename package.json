@@ -1,7 +1,7 @@
 {
   "name": "@shoppexio/storefront",
   "version": "0.1.0",
-  "description": "Public npm package for the Shoppex Storefront SDK",
+  "description": "Official JavaScript storefront SDK for Shoppex",
   "type": "module",
   "repository": {
     "type": "git",
