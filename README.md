@@ -39,7 +39,3 @@ If you want the authenticated Developer API wrapper for backend integrations, us
 
 - Storefront docs: [docs.shoppex.io/sdk/introduction](https://docs.shoppex.io/sdk/introduction)
 - Installation: [docs.shoppex.io/sdk/installation](https://docs.shoppex.io/sdk/installation)
-
-## Status
-
-This package is already usable and backed by the existing Shoppex storefront SDK runtime.
